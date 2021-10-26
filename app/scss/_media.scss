@@ -1,0 +1,199 @@
+// MAX-WIDTH 1600PX breakpoints START
+@media (max-width: 1600px) {
+}
+// MAX-WIDTH 1600PX breakpoints END
+
+// MAX-WIDTH 1399.98PX breakpoints START
+@media (max-width: 1399.98px) {
+}
+// MAX-WIDTH 1399.98PX breakpoints END
+
+// MAX-WIDTH 1199.98PX breakpoints START
+@media (max-width: 1099.98px) {
+   .result__bottomside .result__title {
+      margin-left: unset;
+      margin-right: unset;
+   }
+}
+// MAX-WIDTH 1199.98PX breakpoints END
+
+// MAX-WIDTH 991.98PX breakpoints START
+@media (max-width: 991.98px) {
+   .page-main {
+      &__paragraph {
+         padding: unset;
+      }
+      &__section-to-hide {
+         padding-bottom: 50px;
+      }
+      &__section-main .page-main__title {
+         max-width: 500px;
+         margin-left: auto;
+         margin-right: auto;
+      }
+   }
+   .result__bottomside .result__title {
+      margin-bottom: 30px;
+   }
+   .review {
+      &__title {
+         max-width: 410px;
+         margin: 0 auto;
+         margin-bottom: 20px;
+      }
+   }
+}
+// MAX-WIDTH 991.98PX breakpoints END
+
+// MAX-WIDTH 767.98PX breakpoints START
+@media (max-width: 767.98px) {
+   .review {
+      &__list {
+         transform: unset;
+      }
+   }
+}
+// MAX-WIDTH 767.98PX breakpoints END
+
+// MAX-WIDTH 576.98PX breakpoints START
+@media (max-width: 575.98px) {
+   .title {
+      font-size: 36px;
+      line-height: 36px;
+   }
+   .subtitle {
+      font-size: 18px;
+      line-height: 18px;
+   }
+   .container {
+      padding: 0 20px;
+   }
+   .page-main {
+      &__content {
+         padding-top: 0;
+         margin-bottom: 50px;
+      }
+      &__top-line {
+         padding-top: 40px;
+         padding-bottom: 40px;
+         font-size: 20px;
+         margin-bottom: 40px;
+      }
+      &__top-line-img {
+         width: 48px;
+         height: 48px;
+      }
+      &__title {
+         max-width: 310px;
+         margin-bottom: 20px;
+      }
+      &__descr {
+         font-size: 20px;
+         line-height: 18px;
+         margin-bottom: 50px;
+      }
+      &__paragraph {
+         align-items: flex-start;
+      }
+      &__paragraph-img {
+         width: 70px;
+         height: 70px;
+         margin-right: 20px;
+      }
+      &__paragraph-text {
+         font-size: 16px;
+         line-height: 20px;
+      }
+      &__section-main {
+         padding-top: 50px;
+      }
+      &__subtitle {
+         margin-bottom: 10px;
+      }
+      &__section-main .page-main__title {
+         margin-bottom: 30px;
+      }
+   }
+   .form {
+      padding: 20px 20px 30px;
+      margin-bottom: 50px;
+      &__input {
+         margin-bottom: 20px;
+      }
+      &__btn {
+         margin-bottom: 30px;
+      }
+   }
+   .evaluation-menu__block {
+      margin-bottom: 40px;
+   }
+   .result {
+      &__content {
+         padding: 80px 0 70px;
+      }
+      &__topside {
+         padding-bottom: 50px;
+         margin-bottom: 50px;
+      }
+      &__one-more {
+         margin-left: -5px;
+         margin-right: -5px;
+      }
+      &__bottomside .result__title {
+         margin-bottom: 14px;
+      }
+   }
+   .review {
+      &__content {
+         display: flex;
+         flex-direction: column;
+         padding-top: 20px;
+         padding-bottom: 40px;
+      }
+      &__gif {
+         height: unset;
+         // width: unset;
+         max-width: 100%;
+         margin-bottom: 30px;
+         img {
+            height: unset;
+         }
+      }
+      &__subtitle {
+         margin-bottom: 10px;
+      }
+      &__descr {
+         margin-bottom: 30px;
+      }
+      &__list {
+         order: 7;
+      }
+      &__list-item-num {
+         margin-top: 7px;
+         margin-bottom: 7px;
+      }
+      &__list-item-text {
+         padding: 10px 0;
+      }
+      .form {
+         order: 5;
+         width: 100%;
+         margin-bottom: 20px;
+      }
+      &__contact-us {
+         order: 6;
+         padding: 20px;
+         flex-direction: column;
+         width: 100%;
+         margin-bottom: 40px;
+      }
+      &__phone-num {
+         padding-right: unset;
+         padding-bottom: 12px;
+         margin-bottom: 12px;
+         border-right: none;
+         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      }
+   }
+}
+// MAX-WIDTH 576.98PX breakpoints END
