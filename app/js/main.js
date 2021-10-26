@@ -1,14 +1,14 @@
 $(document).ready(function () {
-   $('.activate__input').on("keyup", function () {
+   $('.form__input').on("keyup", function () {
       // alert("dfds");
-      let email = $(".activate__input").val();
+      let email = $(".form__input").val();
       if ((email.length > 0 && (email.match(/.+?\@.+/g) || []).length !== 1) || email == '') {
-         $(".activate__btn").prop('disabled', true);
+         $(".form__btn").prop('disabled', true);
       } else {
-         $(".activate__btn").prop('disabled', false);
+         $(".form__btn").prop('disabled', false);
       }
    });
-   $('.activate__btn').on('click', function () {
+   $('.form__btn').on('click', function () {
       $(".page-main__section-to-hide").slideUp(1200);
    });
 
